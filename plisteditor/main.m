@@ -19,7 +19,7 @@ NS_RETURNS_RETAINED NSString *argumentForIndex(int index, const char *argv[]) {
 }
 
 void printHelp() {
-    NSString *helpString = @"\nUsage: \n\n";
+    NSString *helpString = @"\nPList Editor\n\nhttps://github.com/jansichermann/plisteditor\n\nUsage: \n\n";
     helpString = [helpString stringByAppendingString:@"Options: \n"];
     helpString = [helpString stringByAppendingFormat:@"%@\t\tfile path to .plist file\n", fileParameterKey];
     helpString = [helpString stringByAppendingFormat:@"%@\t\tnew value\n", valueParameterKey];
